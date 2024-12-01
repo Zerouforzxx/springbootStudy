@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: springBootStudy
+  data:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:18380/springboot_study?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 111222345
+    type: com.alibaba.druid.pool.DruidDataSource
